@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="8dp"
+    android:layout_width="200dp"
+    android:layout_height="250dp">
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </LinearLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn_updateComic"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:textStyle="bold"
+                android:background="#80333639"
+                app:backgroundTint="@color/black"
+                android:text="Update"
+                android:textSize="11dp" />
+
+            <Button
+                android:id="@+id/btn_deleteComic"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="95dp"
+                android:background="#80333639"
+                app:backgroundTint="@color/textColor"
+                android:text="delete"
+                android:textSize="11dp" />
+            <ImageView
+                android:id="@+id/image_view"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+
+            <TextView
+                android:id="@+id/manga_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="#80333639"
+                android:padding="8dp"
+                android:text="X man"
+                android:textColor="@android:color/white"
+                android:textSize="18dp" />
+
+
+        </FrameLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

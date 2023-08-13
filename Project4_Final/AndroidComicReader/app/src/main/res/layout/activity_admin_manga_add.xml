@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Admin_Manga_Add">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/img_editmanga"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="231dp"
+        android:layout_height="326dp"
+        android:layout_margin="16dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.577"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.916">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:layout_gravity="center_vertical"
+            android:text="     Add Manga          "
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edt_name_addmanga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Manga Name"
+            android:inputType="text"
+            android:textColorHint="@color/white"
+            app:met_baseColor="@android:color/white"
+            app:met_iconLeft="@drawable/ic_user"
+            app:met_iconPadding="0dp"
+            app:met_primaryColor="@android:color/white"
+            app:met_textColorHint="#AFAFAF" />
+
+        <EditText
+            android:id="@+id/edt_image"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:hint="Image"
+            android:inputType="text"
+            android:textColorHint="@color/white"
+            app:met_baseColor="@android:color/white"
+            app:met_iconLeft="@drawable/ic_password"
+            app:met_iconPadding="0dp"
+            app:met_primaryColor="@android:color/white"
+            app:met_textColorHint="#AFAFAF" />
+
+        <Spinner
+            android:id="@+id/spinner_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp" />
+
+        <LinearLayout
+            android:layout_width="301dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <!--            android:textColor="@color/colorPrimary"-->
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_insert_manga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17px"
+            android:layout_marginRight="8dp"
+            android:backgroundTint="@color/black"
+            android:text="Insert"
+            android:textColor="@color/textColor"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

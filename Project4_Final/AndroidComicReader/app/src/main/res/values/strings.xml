@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">AndroidComicReader</string>
+
+    <string-array name="optionManga">
+        <item></item>
+        <item>AddManga</item>
+        <item>UpdateManga</item>
+        <item>DeleteManga</item>
+    </string-array>
+
+    <string-array name="optionLink">
+        <item></item>
+        <item>AddLink</item>
+        <item>UpdateLink</item>
+        <item>DeleteLink</item>
+    </string-array>
+
+    <string-array name="optionT">
+        <item></item>
+        <item>Add Chapter</item>
+        <item>Add Manga Category</item>
+        <item>Delete Manga Category</item>
+        <item>Update Manga Category</item>
+    </string-array>
+
+
+    <string name="title_activity_update_insert_delete_test">UpdateInsertDeleteTest</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
